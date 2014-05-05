@@ -104,8 +104,8 @@ describe("About Functions", function() {
       return a * b;
     };
     expect(multiply.toString()).toBe("function (a, b) {
-      //An internal comment
-      return a * b;
-    };");
+        //An internal comment
+        return a * b;
+        };");
   });    
 });
